@@ -8,10 +8,10 @@ namespace BGE {
 		BGE_Window(int, int, const char*);
 		~BGE_Window();
 
-		void BGE_WindowCreation();	//Creation of GLFW window
-		bool BGE_WindowClose();		//Checking if window is closed, used in main render loop
-		void BGE_Viewport();		//Viewport creation, used everytime window is resized
-		void BGE_InputController();		//Mapping keys to certain functionality
+		void BGE_windowCreation();	//Creation of GLFW window
+		bool BGE_windowClose();		//Checking if window is closed, used in main render loop
+		void BGE_viewport();		//Viewport creation, used everytime window is resized
+		void BGE_inputController();		//Mapping keys to certain functionality
 
 		//Access functions
 		int GET_WINDOW_WIDTH();		

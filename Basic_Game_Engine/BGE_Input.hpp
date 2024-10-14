@@ -5,6 +5,6 @@
 namespace BGE {
 	static class BGE_Input {
 	public:
-		static void BGE_ProcessInput(GLFWwindow*);	//Mapping inputs to certain functions
+		static void BGE_processInput(GLFWwindow*);	//Mapping inputs to certain functions
 	};
 }

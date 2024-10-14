@@ -14,22 +14,31 @@ namespace BGE {
 		glfwDestroyWindow(window);
 	}
 
-	void BGE_Window::BGE_WindowCreation() {
+	void BGE_Window::BGE_windowCreation() {
 		window = glfwCreateWindow(this->WIDTH, this->HEIGHT, this->title, NULL, NULL);
 		if (window == NULL) {
 			std::cerr << "Failed to create GLFW window" << std::endl;
+			system("pause");
 			exit(EXIT_FAILURE);
 		}
 
 		glfwMakeContextCurrent(window);
-		BGE_Viewport();
+		BGE_viewport();
 	}
 
-	void BGE_Window::BGE_Viewport() {
+	void BGE_Window::BGE_viewport() {
 		glViewport(0, 0, this->WIDTH, this->HEIGHT);
 	}
 
-	void BGE_Window::BGE_InputController() {
-		BGE_Input::BGE_ProcessInput(this->window);
+	void BGE_Window::BGE_inputController() {
+		BGE_Input::BGE_processInput(this->window);
+	}
+
+	int BGE_Window::GET_WINDOW_WIDTH() {
+		return this->WIDTH;
+	}
+
+	int BGE_Window::GET_WINDOW_HEIGHT() {
+		return this->HEIGHT;
 	}
 }

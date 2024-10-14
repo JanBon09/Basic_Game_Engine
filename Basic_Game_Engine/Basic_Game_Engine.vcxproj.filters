@@ -36,6 +36,9 @@
     <ClCompile Include="BGE_Window.cpp">
       <Filter>Pliki źródłowe\Start</Filter>
     </ClCompile>
+    <ClCompile Include="BGE_Shader.cpp">
+      <Filter>Pliki źródłowe\Start</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BGE_Core.hpp">
@@ -48,6 +51,9 @@
       <Filter>Pliki nagłówkowe\Start</Filter>
     </ClInclude>
     <ClInclude Include="BGE_Window.hpp">
+      <Filter>Pliki nagłówkowe\Start</Filter>
+    </ClInclude>
+    <ClInclude Include="BGE_Shader.hpp">
       <Filter>Pliki nagłówkowe\Start</Filter>
     </ClInclude>
   </ItemGroup>
