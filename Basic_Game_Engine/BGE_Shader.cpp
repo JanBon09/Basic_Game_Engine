@@ -5,6 +5,14 @@
 #include "BGE_Shader.hpp"
 
 namespace BGE {
+	BGE_Shader::BGE_Shader()
+	{
+	}
+
+	BGE_Shader::~BGE_Shader() {
+		glDeleteShader(this->shaderID);
+	}
+
 	const char* BGE_Shader::BGE_readShaderFile(const char* shaderPath) {
 		std::ifstream fin{ shaderPath };
 		std::string temp = "";

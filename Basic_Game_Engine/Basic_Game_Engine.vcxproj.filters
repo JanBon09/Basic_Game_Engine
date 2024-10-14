@@ -19,6 +19,12 @@
     <Filter Include="Pliki nagłówkowe\Start">
       <UniqueIdentifier>{dc685ee5-02d0-416c-8107-d2a1e344ca14}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Pliki źródłowe\Shaders">
+      <UniqueIdentifier>{f43fc91d-f350-48c0-912b-4c309831b480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Shaders">
+      <UniqueIdentifier>{23581f04-d519-416e-b2bf-8c524e5a9812}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BGE_Core.cpp">
@@ -37,7 +43,13 @@
       <Filter>Pliki źródłowe\Start</Filter>
     </ClCompile>
     <ClCompile Include="BGE_Shader.cpp">
-      <Filter>Pliki źródłowe\Start</Filter>
+      <Filter>Pliki źródłowe\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="BGE_ShaderProgram.cpp">
+      <Filter>Pliki źródłowe\Shaders</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -54,7 +66,10 @@
       <Filter>Pliki nagłówkowe\Start</Filter>
     </ClInclude>
     <ClInclude Include="BGE_Shader.hpp">
-      <Filter>Pliki nagłówkowe\Start</Filter>
+      <Filter>Pliki nagłówkowe\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="BGE_ShaderProgram.hpp">
+      <Filter>Pliki nagłówkowe\Shaders</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

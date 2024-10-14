@@ -139,7 +139,9 @@
     <ClCompile Include="BGE_Init.cpp" />
     <ClCompile Include="BGE_Input.cpp" />
     <ClCompile Include="BGE_Shader.cpp" />
+    <ClCompile Include="BGE_ShaderProgram.cpp" />
     <ClCompile Include="BGE_Window.cpp" />
+    <ClCompile Include="glad.c" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -147,6 +149,7 @@
     <ClInclude Include="BGE_Init.hpp" />
     <ClInclude Include="BGE_Input.hpp" />
     <ClInclude Include="BGE_Shader.hpp" />
+    <ClInclude Include="BGE_ShaderProgram.hpp" />
     <ClInclude Include="BGE_Window.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
