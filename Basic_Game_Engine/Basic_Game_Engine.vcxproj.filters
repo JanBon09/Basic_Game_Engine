@@ -51,6 +51,9 @@
     <ClCompile Include="BGE_ShaderProgram.cpp">
       <Filter>Pliki źródłowe\Shaders</Filter>
     </ClCompile>
+    <ClCompile Include="BGE_FileReader.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BGE_Core.hpp">
@@ -71,5 +74,16 @@
     <ClInclude Include="BGE_ShaderProgram.hpp">
       <Filter>Pliki nagłówkowe\Shaders</Filter>
     </ClInclude>
+    <ClInclude Include="BGE_FileReader.hpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\basicFragmentShader.frag">
+      <Filter>Pliki źródłowe</Filter>
+    </None>
+    <None Include="Shaders\basicVertexShader.vert">
+      <Filter>Pliki źródłowe</Filter>
+    </None>
   </ItemGroup>
 </Project>
